@@ -11,6 +11,9 @@ const AdmissionForm = () => {
   const [age, setAge] = useState('');
   const [batch, setBatch] = useState('');
 
+
+
+  
   const handleSubmit = (event) => {
     event.preventDefault();
     if (age >= 18 && age <= 65) {
